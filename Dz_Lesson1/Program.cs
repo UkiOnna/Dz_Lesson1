@@ -10,8 +10,17 @@ namespace Dz_Lesson1
     {
         static void Main(string[] args)
         {
-           // SixthTask();
-            SeventhTask();
+            // SixthTask();
+            // SeventhTask();
+            EighthTask();
+        }
+
+        private static void EighthTask()
+        {
+            Console.WriteLine("Введите объем 1 тела");
+            int amountFirst = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите объем 2 тела");
+            int amountSecond = int.Parse(Console.ReadLine());
         }
 
         private static void SeventhTask()
